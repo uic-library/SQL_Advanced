@@ -25,7 +25,7 @@ GROUP BY column_to_group_by
 #### Example
 Consider the below CUSTOMERS table with a few sample records
 
-![AF1](../fig/AF1.JPG)
+![AF1](../fig/AF1.jpg)
 
 ```sql
 SELECT Country, Count(CustomerID) AS CT
@@ -33,7 +33,7 @@ FROM Customers
 GROUP BY Country
 ORDER BY 2 DESC
 ```
-![AF2](../fig/AF2.JPG)
+![AF2](../fig/AF2.jpg)
 
 ## AGGREGATE FUNCTIONS
 
@@ -57,14 +57,14 @@ GROUP BY column_to_group_by
 ```
 #### Example
 Consider the below PRODUCTS table with a few sample records
-![AF3](../fig/AF3.JPG)
+![AF3](../fig/AF3.jpg)
 
 ```sql
 SELECT CategoryID, SUM(Price) AS Sum_Price, MAX(Price) AS Max_Price, COUNT(Price) as CT
 FROM Products
 GROUP BY 1
 ```
-![AF4](../fig/AF4.JPG)
+![AF4](../fig/AF4.jpg)
 
 
 

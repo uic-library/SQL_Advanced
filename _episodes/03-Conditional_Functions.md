@@ -15,7 +15,7 @@ FIXME
 
 The HAVING function performs a similar function as WHERE function and helps to filter out data in the result. The AGGREGATE functions cannot be used in WHERE clause and can only be  used  in  the HAVING clause.  Thus HAVING  clause  is  generally  preceded  by  the GROUP  BY function.
 
-![CF1](../fig/CF1.JPG)
+![CF1](../fig/CF1.jpg)
 
 #### Syntax
 ```sql
@@ -31,7 +31,7 @@ SELECT CategoryID, SUM(Price) AS Sum_Price
 FROM Products
 GROUP BY 1
 ```
-![CF2](../fig/CF2.JPG)
+![CF2](../fig/CF2.jpg)
 
 ```sql
 SELECT CategoryID, SUM(Price) AS Sum_Price
@@ -39,7 +39,7 @@ FROM Products
 GROUP BY 1
 HAVING SUM(Price) > 300
 ```
-![CF3](../fig/CF3.JPG)
+![CF3](../fig/CF3.jpg)
 
 ## CASE
 
@@ -62,7 +62,7 @@ WHEN CategoryID = 4 THEN "Equal to 4"
 ELSE "Greater than 4" END AS ID_Text
 FROM Categories
 ```
-![CF4](../fig/CF4.JPG)
+![CF4](../fig/CF4.jpg)
 
 ## IF (MySQL)
 
@@ -81,6 +81,6 @@ FROM table_name
 SELECT DISTINCT Quantity, IF(Quantity>4, "MORE", "LESS") AS Quantity_String
 FROM OrderDetails
 ```
-![CF5](../fig/CF5.JPG)
+![CF5](../fig/CF5.jpg)
 
 {% include links.md %}

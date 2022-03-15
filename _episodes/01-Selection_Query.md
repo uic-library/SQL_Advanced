@@ -36,7 +36,7 @@ FROM Customers
 WHERE Address IS NOT NULL;
 ```
 
-![SQ1](../fig/SQ1.JPG)
+![SQ1](../fig/SQ1.jpg)
 
 ## BETWEEN
 
@@ -56,7 +56,7 @@ FROM Products
 WHERE Price BETWEEN 10 AND 14
 ORDER BY 3
 ```
-![SQ2](../fig/SQ2.JPG)
+![SQ2](../fig/SQ2.jpg)
 
 ## LIKE
 
@@ -77,8 +77,8 @@ SELECT CustomerID, CustomerName
 FROM Customers
 WHERE CustomerName LIKE 'a%'
 ```
-![SQ3](../fig/SQ3.JPG)
-![SQ4](../fig/SQ4.JPG)
+![SQ3](../fig/SQ3.jpg)
+![SQ4](../fig/SQ4.jpg)
 
 ## SUBQUERY
 
@@ -89,7 +89,7 @@ For example, we can fetch the maximum value in a column using he below query
 ```sql
 SELECT MAX(price) FROM Products
 ```
-![SQ5](../fig/SQ5.JPG)
+![SQ5](../fig/SQ5.jpg)
 
 The result from the above query can be used as input to another query to filter out the particular rows matching the above result.
 ```sql
@@ -97,7 +97,7 @@ SELECT ProductID, ProductName, Unit, Price
 From Products
 WHERE price = (SELECT MAX(price) FROM Products)
 ```
-![SQ6](../fig/SQ6.JPG)
+![SQ6](../fig/SQ6.jpg)
 
 ## IN
 
@@ -107,7 +107,7 @@ Consider the below two tables:
 PRODUCTS – Contains details about the various products in a store
 ORDERS – Contains details about the various orders, one line per product per order
 
-![SQ7](../fig/SQ7.JPG)
+![SQ7](../fig/SQ7.jpg)
 
 In order to select all the OrderID which contains a product whose price is greater than 50:
 
@@ -117,7 +117,7 @@ Step 1 : Select the ProductID from PRODUCTS table whose price is greater than 50
 SELECT ProductID FROM Products
 Where Price > 50
 ```
-![SQ8](../fig/SQ8.JPG)
+![SQ8](../fig/SQ8.jpg)
 
 Step 2 : Select all records from ORDERS table where the ProductID contains any one of the values present above
 
@@ -126,6 +126,6 @@ SELECT *
 From OrderDetails
 WHERE ProductID IN (SELECT ProductID FROM Products Where Price > 50)
 ```
-![SQ9](../fig/SQ9.JPG)
+![SQ9](../fig/SQ9.jpg)
 
 {% include links.md %}
