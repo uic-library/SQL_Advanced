@@ -1,13 +1,13 @@
 ---
 title: "Window Function"
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
 - "Key question (FIXME)"
 objectives:
-- "First learning objective. (FIXME)"
+- "Introduction to Window Functions"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Understanding the concepts of Window Functions like OVER, PARTITION, ORDER BY"
 ---
 FIXME
 

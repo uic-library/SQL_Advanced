@@ -1,15 +1,15 @@
 ---
 title: "Aggregate Function"
-teaching: 0
+teaching: 10
 exercises: 0
 questions:
 - "Key question (FIXME)"
 objectives:
-- "First learning objective. (FIXME)"
+- "Introduction to Aggregate Functions"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Familiarize with the aggregate function along with examples"
 ---
-FIXME
+
 
 ## GROUP BY & COUNT
 

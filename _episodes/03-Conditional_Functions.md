@@ -1,13 +1,13 @@
 ---
 title: "Conditional Functions"
-teaching: 0
+teaching: 15
 exercises: 0
 questions:
 - "Key question (FIXME)"
 objectives:
-- "First learning objective. (FIXME)"
+- "Introduction to Conditional Functions"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Familiarize with the Conditional functions like HAVING, CASE, IF along with examples"
 ---
 FIXME
 

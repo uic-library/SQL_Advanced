@@ -1,15 +1,15 @@
 ---
 title: "Selection Queries"
-teaching: 0
+teaching: 15
 exercises: 0
 questions:
 - "Key question (FIXME)"
 objectives:
-- "First learning objective. (FIXME)"
+- "Review of basic SQL queries and introduction to advanced queries and keywords"
 keypoints:
-- "First key point. Brief Answer to questions. (FIXME)"
+- "Introduction to keywords like NULL, BETWEEN, LIKE, SUBQUERY and IN"
 ---
-FIXME
+
 
 ## Quick Review
 
