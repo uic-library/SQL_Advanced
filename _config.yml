@@ -23,7 +23,7 @@ carpentry: "swc"
 # Life cycle stage of the lesson
 # See this page for more details: https://cdh.carpentries.org/the-lesson-life-cycle.html
 # Possible values: "pre-alpha", "alpha", "beta", "stable"
-life_cycle: "pre-alpha"
+life_cycle: "stable"
 
 # This option is currently only needed for
 # Data Carpentry and Software Carpentry workshops.
@@ -57,7 +57,7 @@ pilot: false
 # Most workshops don't use extra pages. More information about extra
 # pages are included in the README:
 # https://github.com/carpentries/workshop-template#creating-extra-pages
-title: "Workshop Title"
+title: "SQL Advanced"
 
 #------------------------------------------------------------
 # Incubator workshop settings (only relevant for workshops teaching a lesson
